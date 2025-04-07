@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="mb-4">
               <a href="/" className="text-white font-bold text-2xl">
-                AgentBuddy
+                Genesys
               </a>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
@@ -67,9 +67,9 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li>
-                <a href="mailto:info@agentbuddy.com" className="text-gray-400 hover:text-white transition-colors flex items-center">
+                <a href="mailto:info@genesys.com" className="text-gray-400 hover:text-white transition-colors flex items-center">
                   <Mail className="h-5 w-5 mr-2" />
-                  info@agentbuddy.com
+                  info@genesys.com
                 </a>
               </li>
               <li>
@@ -92,7 +92,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0 text-center md:text-left">
               <p className="text-gray-500">
-                &copy; {currentYear} AgentBuddy. All rights reserved.
+                &copy; {currentYear} Genesys. All rights reserved.
               </p>
             </div>
             <div className="flex flex-wrap justify-center gap-4">

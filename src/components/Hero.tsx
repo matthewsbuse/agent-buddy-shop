@@ -51,7 +51,7 @@ const Hero = () => {
             <div className="relative bg-white rounded-lg shadow-xl overflow-hidden card-glow">
               <div className="bg-gray-50 p-6 flex items-center border-b border-gray-100">
                 <Bot className="h-6 w-6 text-blue-600 mr-3" />
-                <h3 className="font-medium text-gray-900">AgentBuddy Assistant</h3>
+                <h3 className="font-medium text-gray-900">Genesys Assistant</h3>
               </div>
               <div className="p-6 space-y-4">
                 <div className="flex items-start gap-4">
@@ -59,7 +59,7 @@ const Hero = () => {
                     <Bot className="h-4 w-4 text-blue-600" />
                   </div>
                   <div className="bg-gray-100 rounded-lg rounded-tl-none p-4 max-w-xs">
-                    <p className="text-gray-700">Hello! I'm your AgentBuddy AI assistant. How can I help your business today?</p>
+                    <p className="text-gray-700">Hello! I'm your Genesys AI assistant. How can I help your business today?</p>
                   </div>
                 </div>
                 
