@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/agent-buddy-shop/", // 👈 this line tells GitHub where your site lives!
+  base: "/agent-buddy-shop/", // 👈 this is the magic line
   server: {
     host: "::",
     port: 8080,
