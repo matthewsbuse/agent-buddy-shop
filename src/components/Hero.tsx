@@ -9,39 +9,39 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8 animate-fade-up">
             <div className="inline-flex items-center rounded-full border border-blue-100 bg-blue-50 px-4 py-1.5">
-              <span className="text-xs font-medium text-blue-700">AI-Powered Solutions for Small Businesses</span>
+              <span className="text-xs font-medium text-blue-700">AI Chatbots for Customer Service</span>
             </div>
             
             <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl tracking-tight text-gray-900">
-              AI Agents That <span className="text-blue-600">Work For You</span>
+              Personalized Chatbots That <span className="text-blue-600">Answer Questions</span>
             </h1>
             
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl">
-              Streamline your business operations with intelligent AI agents that handle customer service, scheduling, data analysis, and more. Built specifically for small enterprises.
+              Enhance your website with intelligent chatbots that handle customer inquiries 24/7. Our AI-powered solution learns from your business data to provide accurate, personalized responses.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-base">
-                <span>Get Started Free</span>
+                <span>Get Your Chatbot</span>
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <Button size="lg" variant="outline" className="text-blue-600 border-blue-200 hover:bg-blue-50 text-base">
-                Book a Demo
+                See Live Demo
               </Button>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-6 pt-2">
               <div className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-blue-600" />
-                <span className="text-gray-700">No credit card required</span>
+                <span className="text-gray-700">Easy website integration</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-blue-600" />
-                <span className="text-gray-700">Cancel anytime</span>
+                <span className="text-gray-700">Customizable appearance</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-blue-600" />
-                <span className="text-gray-700">14-day free trial</span>
+                <span className="text-gray-700">Free 14-day trial</span>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Hero = () => {
             <div className="relative bg-white rounded-lg shadow-xl overflow-hidden card-glow">
               <div className="bg-gray-50 p-6 flex items-center border-b border-gray-100">
                 <Bot className="h-6 w-6 text-blue-600 mr-3" />
-                <h3 className="font-medium text-gray-900">Genesys Assistant</h3>
+                <h3 className="font-medium text-gray-900">Genesys Chatbot</h3>
               </div>
               <div className="p-6 space-y-4">
                 <div className="flex items-start gap-4">
@@ -59,13 +59,13 @@ const Hero = () => {
                     <Bot className="h-4 w-4 text-blue-600" />
                   </div>
                   <div className="bg-gray-100 rounded-lg rounded-tl-none p-4 max-w-xs">
-                    <p className="text-gray-700">Hello! I'm your Genesys AI assistant. How can I help your business today?</p>
+                    <p className="text-gray-700">Hello! I'm your Genesys chatbot. How can I help you today?</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-4 justify-end">
                   <div className="bg-blue-600 text-white rounded-lg rounded-tr-none p-4 max-w-xs">
-                    <p>I need to automate customer inquiries and schedule appointments.</p>
+                    <p>Do you offer international shipping for your products?</p>
                   </div>
                   <div className="h-8 w-8 rounded-full bg-gray-200 flex items-center justify-center flex-shrink-0">
                     <span className="text-sm font-medium text-gray-700">You</span>
@@ -77,7 +77,7 @@ const Hero = () => {
                     <Bot className="h-4 w-4 text-blue-600" />
                   </div>
                   <div className="bg-gray-100 rounded-lg rounded-tl-none p-4 max-w-xs">
-                    <p className="text-gray-700">I can help with that! I'll handle customer questions 24/7 and manage your calendar. Would you like me to show you how it works?</p>
+                    <p className="text-gray-700">Yes, we ship to over 50 countries worldwide! Standard shipping takes 7-10 business days. Would you like to know about our expedited options?</p>
                   </div>
                 </div>
               </div>

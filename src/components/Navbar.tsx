@@ -38,7 +38,7 @@ const Navbar = () => {
 
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
-              Log in
+              Demo Chatbot
             </Button>
             <Button className="bg-blue-600 hover:bg-blue-700">
               Get Started
@@ -76,7 +76,7 @@ const Navbar = () => {
             </a>
             <div className="pt-4 flex flex-col space-y-3">
               <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 w-full">
-                Log in
+                Demo Chatbot
               </Button>
               <Button className="bg-blue-600 hover:bg-blue-700 w-full">
                 Get Started
